@@ -30,6 +30,31 @@ NO_MAGISK_CHECK=1;
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh;
 
+# UI improvements
+ui_print " ";
+ui_print "      ___ ___   _   ___ _    ___ ___ ___ ";
+ui_print "     | __| __| /_\ | _ \ |  | __/ __/ __|";
+ui_print "     | _|| _| / _ \|   / |__| _|\__ \__ \\";
+ui_print "     |_| |___/_/ \_\_|_\____|___|___/___/";
+ui_print "    --------------------------------------";
+ui_print "             BE BRAVE, BE FEARLESS";
+ui_print "    --------------------------------------";
+ui_print "    - Kernel    : Fearless GKI";
+ui_print "    - Version   : 5.10.256";
+ui_print "    - Developer : itswill00";
+ui_print "    - Build Date: $(date +%Y-%m-%d)";
+ui_print "    --------------------------------------";
+ui_print "    - Toolchain : Clang r416183b";
+ui_print "    - LTO       : ThinLTO + ICF Enabled";
+ui_print "    - Sched Opt : Low Latency Tuning";
+ui_print "    - RAM Opt   : ZRAM ZSTD Default";
+ui_print "    - Net Opt   : TCP BBR Default";
+ui_print "    --------------------------------------";
+ui_print "    - Support   : https://t.me/sseulgi00";
+ui_print "    - Channel   : https://t.me/itseunbinn";
+ui_print "    --------------------------------------";
+ui_print " ";
+
 # variables
 supported=false
 supported_kver='5.10'
